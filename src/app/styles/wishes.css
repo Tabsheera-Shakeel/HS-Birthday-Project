@@ -1,0 +1,95 @@
+.wishes-page {
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dots-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .gift-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .gift-image {
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; /* Center the image */
+    width: 200px;
+    height: 200px;
+    animation: jump 1s infinite; /* Jumping animation */
+  }
+  
+  @keyframes jump {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .open-me-text {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: cyan;
+    text-align: center;
+  }
+  
+  .message-container {
+    position: relative;
+    background-color: #114075;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 80px; /* Add extra space for smooth layout */
+  }
+  
+  .mentor-image {
+    border-radius: 50%;
+    border: 4px solid #4a90e2;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Make the margin auto work */
+  }
+  
+  .footer {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    width: 100%; 
+    position: relative; /* Change from fixed to relative */
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: auto; /* Automatically position footer at the end of content */
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    color: #555;
+  }
+  
