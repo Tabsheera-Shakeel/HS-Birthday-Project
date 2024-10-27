@@ -10,12 +10,12 @@ interface NavItemProps {
 export default function Header() {
   return (
     <header className="font-sans">
-      <div className="bg-blue-400 flex items-center justify-between px-3 md:px-4 text-white h-auto min-h-14 md:h-16">
+      <div className="bg-blue-400 flex items-center justify-between px-3 md:px-4 text-white h-auto min-h-14 md:h-16 max-w-screen-2xl mx-auto">
       
-        <h2 className="font-semibold text-lg md:text-xl leading-snug text-center md:text-left flex-grow mr-2">
+        <h2 className="font-semibold px-5 text-lg md:text-xl leading-snug text-center md:text-left flex-grow mr-2">
           SPECIAL GIFT FOR MY OUTSTANDING INSTRUCTOR 💎
         </h2>
-        
+
         <ul className="hidden md:flex gap-4 md:gap-6 text-xs md:text-sm">
           <NavItem href="#letter">Letter</NavItem>
           <NavItem href="#reasons">Reasons Why I Admire You</NavItem>

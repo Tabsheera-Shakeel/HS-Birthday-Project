@@ -73,7 +73,7 @@ const GratitudeAndWishes = () => {
             width={150}
             height={150}
           />
-          <h2 className="text-2xl font-semibold text-cyan-500 mb-4 text-center">
+          <h2 className="text-2xl font-semibold text-cyan-500 max-w-screen-2xl mx-auto mb-4 text-center">
             With Heartfelt Gratitude
           </h2>
           <p className="text-gray-400 mb-4 text-center">

@@ -8,7 +8,7 @@ const reasons = [
   {
     text: "You inspire me with your dedication to teaching and the way you teach people of all ages so gracefully.",
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 max-w-screen-2xl mx-auto text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
         <path d="M12 2v20M2 12h20" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} />
       </svg>
     ),

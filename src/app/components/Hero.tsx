@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <main className="mt-10 mx-10">
+    <main className="mt-10 px-10 max-w-screen-2xl mx-auto">
     
       <section className="flex flex-col md:flex-row items-center gap-8">
    
